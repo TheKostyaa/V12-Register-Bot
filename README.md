@@ -6,4 +6,4 @@ V12 Register botum
 - Say.js de bot commands yerini doldurmanız gerekmetedir çünkü .say atıcak rol dür.
 
 - İletişim
- Eğer altından kalkamadığınız bir hata olursa kostya#0001 & discord.gg/serendia
+ Eğer altından kalkamadığınız bir hata olursa Kostya#0001 & discord.gg/serendia
