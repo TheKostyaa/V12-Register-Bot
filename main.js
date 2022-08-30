@@ -25,9 +25,9 @@ fs.readdir('./Commands/', (err, files) => {
 
 client.on("message", function(msg) {
     // if message begins with "ping"
-    if (msg.content.indexOf(".tag") === 0) {
+    if (msg.content.indexOf("tag") === 0) {
         // send a message to the channel the ping message was sent in.
-        msg.channel.send("`` -  - - ``");
+        msg.channel.send("``isim tagı - etiket tagı``");
 
         // alert the console
         console.log("pong-ed " + msg.author.username);
@@ -36,9 +36,9 @@ client.on("message", function(msg) {
 
 client.on("message", function(msg) {
     // if message begins with "ping"
-    if (msg.content.indexOf("!tag") === 0) {
+    if (msg.content.indexOf(".tag") === 0) {
         // send a message to the channel the ping message was sent in.
-        msg.channel.send("``wiâ - wia - x - #1965``");
+        msg.channel.send("``isim tagı - etiket tagı``");
 
         // alert the console
         console.log("pong-ed " + msg.author.username);
@@ -46,37 +46,9 @@ client.on("message", function(msg) {
 });
 
 client.on("guildMemberAdd", member => {
-    let sunucuid = "973611167614390302";
-    let tag = "Wia";
-    let rol = "975119104111423548";
-    if (member.user.username.includes(tag)) {
-        member.roles.add(rol)
-        const tagalma = new Discord.MessageEmbed()
-            .setColor("BLACK")
-            .setDescription(`<@${member.id}> adlı kişi sunucumuza taglı şekilde katıldı.`)
-            .setTimestamp()
-        client.channels.cache.get("975119200202948658").send(tagalma)
-    }
-})
-
-client.on("guildMemberAdd", member => {
-    let sunucuid = "";
-    let tag = "";
-    let rol = "";
-    if (member.user.username.includes(tag)) {
-        member.roles.add(rol)
-        const tagalma = new Discord.MessageEmbed()
-            .setColor("BLACK")
-            .setDescription(`<@${member.id}> adlı kişi sunucumuza taglı şekilde katıldı.`)
-            .setTimestamp()
-        client.channels.cache.get(").send(tagalma)
-    }
-})
-
-client.on("guildMemberAdd", member => {
-    let sunucuid = "";
-    let tag = "";
-    let rol = "";
+    let sunucuid = ""; //sunucu id
+    let tag = ""; //isim tagınız
+    let rol = ""; //taglı rolü 
     if (member.user.username.includes(tag)) {
         member.roles.add(rol)
         const tagalma = new Discord.MessageEmbed()
@@ -88,9 +60,9 @@ client.on("guildMemberAdd", member => {
 })
 
 client.on("guildMemberAdd", member => {
-    let sunucuid = "";
-    let tag = "";
-    let rol = "";
+    let sunucuid = ""; //sunucu id
+    let tag = ""; //isim tagınız
+    let rol = ""; //taglı rolü 
     if (member.user.username.includes(tag)) {
         member.roles.add(rol)
         const tagalma = new Discord.MessageEmbed()
@@ -102,9 +74,9 @@ client.on("guildMemberAdd", member => {
 })
 
 client.on("guildMemberAdd", member => {
-    let sunucuid = "";
-    let tag = "";
-    let rol = "";
+    let sunucuid = ""; //sunucu id
+    let tag = ""; //isim tagınız
+    let rol = ""; //taglı rolü 
     if (member.user.username.includes(tag)) {
         member.roles.add(rol)
         const tagalma = new Discord.MessageEmbed()
@@ -116,9 +88,37 @@ client.on("guildMemberAdd", member => {
 })
 
 client.on("guildMemberAdd", member => {
-    let sunucuid = "";
-    let tag = "";
-    let rol = "";
+    let sunucuid = ""; //sunucu id
+    let tag = ""; //isim tagınız
+    let rol = ""; //taglı rolü 
+    if (member.user.username.includes(tag)) {
+        member.roles.add(rol)
+        const tagalma = new Discord.MessageEmbed()
+            .setColor("BLACK")
+            .setDescription(`<@${member.id}> adlı kişi sunucumuza taglı şekilde katıldı.`)
+            .setTimestamp()
+        client.channels.cache.get("").send(tagalma)
+    }
+})
+
+client.on("guildMemberAdd", member => {
+    let sunucuid = ""; //sunucu id
+    let tag = ""; //isim tagınız
+    let rol = ""; //taglı rolü 
+    if (member.user.username.includes(tag)) {
+        member.roles.add(rol)
+        const tagalma = new Discord.MessageEmbed()
+            .setColor("BLACK")
+            .setDescription(`<@${member.id}> adlı kişi sunucumuza taglı şekilde katıldı.`)
+            .setTimestamp()
+        client.channels.cache.get("").send(tagalma)
+    }
+})
+
+client.on("guildMemberAdd", member => {
+    let sunucuid = ""; //sunucu id
+    let tag = ""; //isim tagınız
+    let rol = ""; //taglı rolü 
     if (member.user.username.includes(tag)) {
         member.roles.add(rol)
         const tagalma = new Discord.MessageEmbed()
@@ -134,9 +134,9 @@ client.on("guildMemberAdd", member => {
 
 
 client.on("guildMemberAdd", member => {
-    let sunucuid = "";
-    let tag = "";
-    let rol = "";
+    let sunucuid = ""; //sunucu id
+    let tag = ""; //etiket tagınız
+    let rol = ""; //taglı rolü 
     if (member.user.discriminator.includes(tag)) {
         member.roles.add(rol)
         const tagalma = new Discord.MessageEmbed()
@@ -149,18 +149,18 @@ client.on("guildMemberAdd", member => {
 
 
 client.on("userUpdate", async function(oldUser, newUser) { // kod codaredan alınıp editlenmiştir!
-    let tag1 = "Wİa";
-    let tag2 = "wia";
-    let tag3 = "1965";
-    let tag4 = "Wiâ";
-    let tag5 = "wiâ";
-    let tag6 = "x";
-    const roleID = "";
-    const guildID = "";
-    const chat = "";
-    const log2 = "";
-    const etiket = "";
-    const unregister = "";
+    let tag1 = ""; //isim tagınız
+    let tag2 = ""; //isim tagınız
+    let tag3 = ""; //isim tagınız
+    let tag4 = ""; //isim tagınız
+    let tag5 = ""; //isim tagınız
+    let tag6 = ""; //isim tagınız
+    const roleID = ""; //taglı rolü
+    const guildID = ""; // sunucu id
+    const chat = ""; 
+    const log2 = ""; // tag log
+    const etiket = ""; // etiket tagı
+    const unregister = ""; // kayıtsız rolü
     const guild = client.guilds.cache.get(guildID)
     const role = guild.roles.cache.find(roleInfo => roleInfo.id === roleID)
     const member = guild.members.cache.get(newUser.id)
@@ -246,7 +246,7 @@ client.on("userUpdate", async function(oldUser, newUser) { // kod codaredan alı
     if (newUser.discriminator !== oldUser.discriminator) {
         if (oldUser.discriminator == `${etiket}` && newUser.discriminator !== `${etiket}`) {
             member.roles.set([unregister])
-            member.setNickname(``)
+            member.setNickname(``) 
             client.channels.cache.get(log2).send(`${newUser} Adlı kişi isminden **#${etiket}** sildi \n \`Alınan Rol:\` \`Tagges of Wiâ\` \n\n \`Kişi Bilgileri;\` \n \`Kişi İd:\` ${newUser.id} \n \`Kişi İsmi:\` ${newUser.tag} \n \`Kişi Etiketi:\` ${newUser} \n  \n\n \`Kişinin Eski İsimi:\` ${oldUser.tag} \n \`Kişinin Yeni İsimi:\` ${newUser.tag}`)
         } else if (oldUser.discriminator !== `${etiket}` && newUser.discriminator == `${etiket}`) {
             member.roles.add(roleID)
