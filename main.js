@@ -157,7 +157,7 @@ client.on("userUpdate", async function(oldUser, newUser) { // kod codaredan alı
     let tag6 = ""; //isim tagınız
     const roleID = ""; //taglı rolü
     const guildID = ""; // sunucu id
-    const chat = ""; 
+    const chat = "";  // genel chat
     const log2 = ""; // tag log
     const etiket = ""; // etiket tagı
     const unregister = ""; // kayıtsız rolü
